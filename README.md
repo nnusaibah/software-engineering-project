@@ -1,2 +1,3 @@
 # software-engineering-project
 StudySmart: AI-Powered Study Planner
+StudySense is an AI-powered web application designed to help students efficiently manage their academic workload. Users input their assignments, deadlines, and exam schedules, and StudySense generates a personalized study plan optimized for time, task difficulty, and individual strengths and weaknesses. The system can detect procrastination patterns, suggest micro-study sessions or breaks, and dynamically adjust priorities to maximize focus and productivity. By providing actionable insights and a structured roadmap, StudySense aims to improve academic performance and reduce stress for students.
