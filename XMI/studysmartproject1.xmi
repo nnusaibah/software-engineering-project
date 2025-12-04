@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Vx5vQM5gEfCGEtqGVNK31g" name="studysmartproject1">
+  <eAnnotations xmi:id="_Vx5vQc5gEfCGEtqGVNK31g" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Vx5vQs5gEfCGEtqGVNK31g" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vQ85gEfCGEtqGVNK31g" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vRM5gEfCGEtqGVNK31g" name="User">
+    <ownedAttribute xmi:id="_Vx5vRc5gEfCGEtqGVNK31g" name="course" visibility="public" type="_Vx5vds5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vbM5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vRs5gEfCGEtqGVNK31g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vR85gEfCGEtqGVNK31g"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vSM5gEfCGEtqGVNK31g" name="studyPlan" visibility="public" type="_Vx5vjs5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vbs5gEfCGEtqGVNK31g"/>
+    <ownedAttribute xmi:id="_Vx5vSc5gEfCGEtqGVNK31g" name="task" visibility="public" type="_Vx5vnc5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vcM5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vSs5gEfCGEtqGVNK31g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vS85gEfCGEtqGVNK31g"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vTM5gEfCGEtqGVNK31g" name="reminder" visibility="public" type="_Vx5vqM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vcs5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vTc5gEfCGEtqGVNK31g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vTs5gEfCGEtqGVNK31g"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vT85gEfCGEtqGVNK31g" name="badge" visibility="public" type="_Vx5vrc5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vdM5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vUM5gEfCGEtqGVNK31g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vUc5gEfCGEtqGVNK31g"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vUs5gEfCGEtqGVNK31g" name="userId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vU85gEfCGEtqGVNK31g" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vVM5gEfCGEtqGVNK31g" name="email" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vVc5gEfCGEtqGVNK31g" name="password" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vVs5gEfCGEtqGVNK31g" name="login" visibility="public">
+      <ownedParameter xmi:id="_Vx5vV85gEfCGEtqGVNK31g" name="email" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vWM5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vWc5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vWs5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Vx5vW85gEfCGEtqGVNK31g" name="password" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vXM5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vXc5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vXs5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Vx5vX85gEfCGEtqGVNK31g" isUnique="false" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vYM5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vYc5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vYs5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Vx5vY85gEfCGEtqGVNK31g" name="updateProfile" visibility="public">
+      <ownedParameter xmi:id="_Vx5vZM5gEfCGEtqGVNK31g" name="name" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vZc5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vZs5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vZ85gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Vx5vaM5gEfCGEtqGVNK31g" name="email" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vac5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vas5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5va85gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vbM5gEfCGEtqGVNK31g" memberEnd="_Vx5vRc5gEfCGEtqGVNK31g _Vx5vbc5gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vbc5gEfCGEtqGVNK31g" visibility="public" type="_Vx5vRM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vbM5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vbs5gEfCGEtqGVNK31g" memberEnd="_Vx5vSM5gEfCGEtqGVNK31g _Vx5vb85gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vb85gEfCGEtqGVNK31g" visibility="public" type="_Vx5vRM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vbs5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vcM5gEfCGEtqGVNK31g" memberEnd="_Vx5vSc5gEfCGEtqGVNK31g _Vx5vcc5gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vcc5gEfCGEtqGVNK31g" visibility="public" type="_Vx5vRM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vcM5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vcs5gEfCGEtqGVNK31g" memberEnd="_Vx5vTM5gEfCGEtqGVNK31g _Vx5vc85gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vc85gEfCGEtqGVNK31g" visibility="public" type="_Vx5vRM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vcs5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vdM5gEfCGEtqGVNK31g" memberEnd="_Vx5vT85gEfCGEtqGVNK31g _Vx5vdc5gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vdc5gEfCGEtqGVNK31g" visibility="public" type="_Vx5vRM5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vdM5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vds5gEfCGEtqGVNK31g" name="Course">
+    <ownedAttribute xmi:id="_Vx5vd85gEfCGEtqGVNK31g" name="topic" visibility="public" type="_Vx5vhM5gEfCGEtqGVNK31g" isUnique="false" aggregation="composite" association="_Vx5vgs5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5veM5gEfCGEtqGVNK31g" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vec5gEfCGEtqGVNK31g" name="courseId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5ves5gEfCGEtqGVNK31g" name="title" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5ve85gEfCGEtqGVNK31g" name="availableHoursPerDay" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vfM5gEfCGEtqGVNK31g" name="addTopic" visibility="public">
+      <ownedParameter xmi:id="_Vx5vfc5gEfCGEtqGVNK31g" name="topic" type="_Vx5vhM5gEfCGEtqGVNK31g" isUnique="false">
+        <ownedComment xmi:id="_Vx5vfs5gEfCGEtqGVNK31g">
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vf85gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vgM5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vgc5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vgs5gEfCGEtqGVNK31g" memberEnd="_Vx5vd85gEfCGEtqGVNK31g _Vx5vg85gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vg85gEfCGEtqGVNK31g" visibility="public" type="_Vx5vds5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vgs5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vhM5gEfCGEtqGVNK31g" name="Topic">
+    <ownedAttribute xmi:id="_Vx5vhc5gEfCGEtqGVNK31g" name="topicId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vhs5gEfCGEtqGVNK31g" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vh85gEfCGEtqGVNK31g" name="difficulty" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5viM5gEfCGEtqGVNK31g" name="deadline" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vic5gEfCGEtqGVNK31g" name="updateDeadline" visibility="public">
+      <ownedParameter xmi:id="_Vx5vis5gEfCGEtqGVNK31g" name="date" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vi85gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vjM5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vjc5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vjs5gEfCGEtqGVNK31g" name="StudyPlan">
+    <ownedAttribute xmi:id="_Vx5vj85gEfCGEtqGVNK31g" name="studySession" visibility="public" type="_Vx5vms5gEfCGEtqGVNK31g" isUnique="false" aggregation="composite" association="_Vx5vmM5gEfCGEtqGVNK31g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vkM5gEfCGEtqGVNK31g" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vkc5gEfCGEtqGVNK31g" name="planId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vks5gEfCGEtqGVNK31g" name="generatedDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vk85gEfCGEtqGVNK31g" name="addSession" visibility="public">
+      <ownedParameter xmi:id="_Vx5vlM5gEfCGEtqGVNK31g" name="session" type="_Vx5vms5gEfCGEtqGVNK31g" isUnique="false">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vlc5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vls5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vl85gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vx5vmM5gEfCGEtqGVNK31g" memberEnd="_Vx5vj85gEfCGEtqGVNK31g _Vx5vmc5gEfCGEtqGVNK31g">
+    <ownedEnd xmi:id="_Vx5vmc5gEfCGEtqGVNK31g" visibility="public" type="_Vx5vjs5gEfCGEtqGVNK31g" isUnique="false" association="_Vx5vmM5gEfCGEtqGVNK31g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vms5gEfCGEtqGVNK31g" name="StudySession">
+    <ownedAttribute xmi:id="_Vx5vm85gEfCGEtqGVNK31g" name="sessionId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vnM5gEfCGEtqGVNK31g" name="durationHours" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vnc5gEfCGEtqGVNK31g" name="Task">
+    <ownedAttribute xmi:id="_Vx5vns5gEfCGEtqGVNK31g" name="taskId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vn85gEfCGEtqGVNK31g" name="title" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5voM5gEfCGEtqGVNK31g" name="difficulty" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5voc5gEfCGEtqGVNK31g" name="deadline" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vos5gEfCGEtqGVNK31g" name="priority" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vo85gEfCGEtqGVNK31g" name="setPriority" visibility="public">
+      <ownedParameter xmi:id="_Vx5vpM5gEfCGEtqGVNK31g" name="level" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vpc5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vps5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vp85gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vqM5gEfCGEtqGVNK31g" name="Reminder">
+    <ownedAttribute xmi:id="_Vx5vqc5gEfCGEtqGVNK31g" name="reminderId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vqs5gEfCGEtqGVNK31g" name="message" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vq85gEfCGEtqGVNK31g" name="dueDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vrM5gEfCGEtqGVNK31g" name="send" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vrc5gEfCGEtqGVNK31g" name="Badge">
+    <ownedAttribute xmi:id="_Vx5vrs5gEfCGEtqGVNK31g" name="badgeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Vx5vr85gEfCGEtqGVNK31g" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Vx5vsM5gEfCGEtqGVNK31g" name="award" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vsc5gEfCGEtqGVNK31g" name="StudyPlanGenerator" clientDependency="_Vx5vu85gEfCGEtqGVNK31g _Vx5vvM5gEfCGEtqGVNK31g">
+    <ownedOperation xmi:id="_Vx5vss5gEfCGEtqGVNK31g" name="generatePlan" visibility="public">
+      <ownedParameter xmi:id="_Vx5vs85gEfCGEtqGVNK31g" name="topics" type="_Vx5vhM5gEfCGEtqGVNK31g" isUnique="false">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vtM5gEfCGEtqGVNK31g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vtc5gEfCGEtqGVNK31g"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vts5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Vx5vt85gEfCGEtqGVNK31g" type="_Vx5vjs5gEfCGEtqGVNK31g" isUnique="false" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vuM5gEfCGEtqGVNK31g" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vuc5gEfCGEtqGVNK31g" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vus5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Vx5vu85gEfCGEtqGVNK31g" name="" supplier="_Vx5vjs5gEfCGEtqGVNK31g" client="_Vx5vsc5gEfCGEtqGVNK31g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Vx5vvM5gEfCGEtqGVNK31g" name="" supplier="_Vx5vhM5gEfCGEtqGVNK31g" client="_Vx5vsc5gEfCGEtqGVNK31g"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vx5vvc5gEfCGEtqGVNK31g" name="TaskPrioritizer" clientDependency="_Vx5vx85gEfCGEtqGVNK31g">
+    <ownedOperation xmi:id="_Vx5vvs5gEfCGEtqGVNK31g" name="rank" visibility="public">
+      <ownedParameter xmi:id="_Vx5vv85gEfCGEtqGVNK31g" name="tasks" type="_Vx5vnc5gEfCGEtqGVNK31g" isUnique="false">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vwM5gEfCGEtqGVNK31g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vwc5gEfCGEtqGVNK31g"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vws5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Vx5vw85gEfCGEtqGVNK31g" type="_Vx5vnc5gEfCGEtqGVNK31g" isUnique="false" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vx5vxM5gEfCGEtqGVNK31g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vx5vxc5gEfCGEtqGVNK31g"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Vx5vxs5gEfCGEtqGVNK31g" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Vx5vx85gEfCGEtqGVNK31g" name="" supplier="_Vx5vnc5gEfCGEtqGVNK31g" client="_Vx5vvc5gEfCGEtqGVNK31g"/>
+</uml:Model>
