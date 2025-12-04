@@ -1,0 +1,3 @@
+# software-engineering-project
+StudySmart: AI-Powered Study Planner
+StudySmart is an Artifical Intelligence-enhanced web application designed to help students avoid a big portion of their stress by creating optimized study routines and strategies based on their personal study habits, academic strengths and weaknesses, courseload, and rigor of individual courses. It also helps keep track of upcoming assignments and create a list of tasks which is ordered from highest to lowest priority by analyzing their lengths and difficulty levels and hence, the probable time needed to complete each task. This application can enable students to study more effectively and efficiently which in turn will increase their productivity. 
